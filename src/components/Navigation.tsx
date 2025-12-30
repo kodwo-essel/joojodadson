@@ -47,6 +47,15 @@ export default function Navigation() {
       : 'text-white hover:text-sky-blue';
   };
 
+  const getMobileLinkClasses = (path: string) => {
+    const isActive = location.pathname === path;
+
+    return isActive
+      ? 'text-sky-blue'
+      : 'text-midnight hover:text-sky-blue';
+  };
+
+
   return (
     <>
       {/* NAVBAR */}
@@ -131,7 +140,8 @@ export default function Navigation() {
                 key={path}
                 to={path}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className={`font-inter text-lg font-medium transition-colors ${getLinkClasses(path)}`}
+                className={`font-inter text-lg font-medium transition-colors ${getMobileLinkClasses(path)}`}
+
               >
                 {label}
               </Link>

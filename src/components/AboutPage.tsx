@@ -51,16 +51,12 @@ export default function AboutPage() {
 
               <div className="border-l-4 border-gold-accent pl-6 my-8">
                 <p className="font-cormorant italic text-2xl text-sky-blue leading-relaxed">
-                  "My music is not just about melodies and lyrics—it's about
-                  creating a space where hearts can connect with Heaven."
+                  "Prayer is the heartbeat of a healthy soul that creates sounds of praise."
                 </p>
               </div>
 
               <p>
-                With a focus on thanksgiving, spiritual edification, and
-                reverent worship, Joojo Dadson's ministry continues to touch
-                lives across nations, reminding believers that in every season,
-                there is always a reason to praise the Lord.
+                Joojo Dadson's music is a reflection of his journey through the highs and lows of life. With a voice that's both raw and refined, he births new songs of hope and redemption, beckoning listeners to join him on a path of healing and discovery. His Gospel-infused sound is a balm to the soul, a reminder of the power of faith to transform and uplift.
               </p>
             </div>
           </div>
@@ -141,12 +137,11 @@ export default function AboutPage() {
           <div className="mt-16 text-center">
             <div className="max-w-3xl mx-auto bg-white p-10 rounded-2xl shadow-lg">
               <p className="font-cormorant italic text-2xl text-midnight leading-relaxed mb-4">
-                "Sing to the Lord a new song; sing to the Lord, all the earth.
-                Sing to the Lord, praise His name; proclaim His salvation day
-                after day."
+                "Ascribe to the Lord, you heavenly beings, ascribe to the Lord glory and strength. Ascribe to the Lord the glory due his name;
+    worship the Lord in the splendor of His holiness."
               </p>
               <p className="font-inter text-sm text-sky-blue font-medium">
-                — Psalm 96:1–2
+                — Psalm 29:1–2
               </p>
             </div>
           </div>
